@@ -1,0 +1,7 @@
+services:
+  ssh-lab4:
+    build: .
+    image: ssh-lab4
+    container_name: ssh-lab4
+    ports:
+      - "2222:22"

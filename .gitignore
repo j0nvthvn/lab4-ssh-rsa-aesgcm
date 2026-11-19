@@ -1,0 +1,9 @@
+actividad2/venv/
+__pycache__/
+# Material del curso: se descarga desde la carpeta de Drive (ver README)
+actividad2/clave_privada.pem
+actividad2/*.pcap
+actividad2/prueba_r4.py
+# Informe y pantallazos se entregan por Canvas
+informe/
+capturas/*.png
