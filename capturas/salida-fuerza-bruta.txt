@@ -1,0 +1,2 @@
+PIN encontrado: 4827 tras 4828 intentos y 231 s
+TRANSACCION COMPLETADA|ID=TRX-426477|DE=Diego Ramirez|A=Constanza Vidal|MONTO=763923

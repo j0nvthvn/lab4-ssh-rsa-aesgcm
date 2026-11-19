@@ -36,3 +36,11 @@ python3 descifrar.py transacciones_cifradas.pcap clave_privada.pem
 ```
 
 La salida esperada está en `capturas/salida-descifrar.txt`: PIN `4827` y 40 transacciones autenticadas.
+
+### Extra: el PIN sin la clave privada
+
+`actividad2/fuerza_bruta.py` prueba los 10.000 PIN posibles con Scrypt y usa el tag de AES-GCM para reconocer el correcto, usando solo la salt y un mensaje visibles en la captura. Encontró `4827` tras 4.828 intentos y 231 s en un núcleo (`capturas/salida-fuerza-bruta.txt`).
+
+```bash
+python3 fuerza_bruta.py transacciones_cifradas.pcap
+```
